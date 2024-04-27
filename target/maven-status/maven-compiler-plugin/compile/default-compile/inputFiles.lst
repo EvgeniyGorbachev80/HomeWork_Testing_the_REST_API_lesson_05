@@ -1,18 +1,18 @@
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\Elevation.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\Location.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\SupplementalAdminArea.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\Night.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\TimeZone.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\Region.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\DailyForecast.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\GeoPosition.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\AdministrativeArea.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\Weather.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\Metric.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\Day.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\Headline.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\Minimum.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\Country.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\Temperature.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\Imperial.java
-D:\GeekBrains\Test Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\Maximum.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\Imperial.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\Day.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\AdministrativeArea.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\Minimum.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\Region.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\SupplementalAdminArea.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\Weather.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\Elevation.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\Maximum.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\DailyForecast.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\Location.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\Headline.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\Night.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\TimeZone.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\GeoPosition.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\Metric.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\location\Country.java
+D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API\src\main\java\org\Gorbachev\HomeWork_03\accuweather\weather\Temperature.java
