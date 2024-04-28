@@ -9,19 +9,14 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.7.2</junit.version>
-        <surefire-report.version>2.22.2</surefire-report.version>
-        <surefire.version>2.22.2</surefire.version>
-        <aspectj.version>1.8.10</aspectj.version>
-        <allure.junit.version>2.22.1</allure.junit.version>
         <assured.version>5.3.0</assured.version>
         <jackson.version>2.15.0</jackson.version>
         <surefire.version>2.22.2</surefire.version>
     </properties>
-
     <!-- Архивирование -->
     <packaging>jar</packaging>
 
@@ -44,7 +39,6 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-
         <!-- Лекция 3. Rest Assured -->
         <dependency>
             <groupId>io.rest-assured</groupId>
@@ -52,7 +46,6 @@
             <version>${assured.version}</version>
             <scope>test</scope>
         </dependency>
-
         <!-- Лекция 3. Jackson -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -64,23 +57,11 @@
             <artifactId>jackson-annotations</artifactId>
             <version>2.15.0</version>
         </dependency>
-
-        <!-- Лекция 6. Allure -->
-        <dependency>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-junit5</artifactId>
-            <version>${allure.junit.version}</version>
-        </dependency>
     </dependencies>
 
     <!-- Сборка -->
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-report-plugin</artifactId>
-                <version>${surefire-report.version}</version>
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -94,59 +75,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${surefire.version}</version>
             </plugin>
-            <plugin>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.21.0</version>
-                <configuration>
-                    <testFailureIgnore>false</testFailureIgnore>
-                    <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                    </argLine>
-                    <systemProperties>
-                        <property>
-                            <name>junit.jupiter.extensions.autodetection.enabled</name>
-                            <value>true</value>
-                        </property>
-                    </systemProperties>
-                </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.junit.platform</groupId>
-                        <artifactId>junit-platform-surefire-provider</artifactId>
-                        <version>1.2.0</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>org.aspectj</groupId>
-                        <artifactId>aspectjweaver</artifactId>
-                        <version>${aspectj.version}</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
-            <plugin>
-                <groupId>io.qameta.allure</groupId>
-                <artifactId>allure-maven</artifactId>
-                <version>2.12.0</version>
-                <configuration>
-                    <!-- На момент написания лекции соответствующий архив не доступен,
-                    закомментируйте строку-->
-                    <!--<reportVersion>2.4.1</reportVersion>-->
-                    <!-- Добавим адрес директории для генератора отчета -->
-                    <buildDirectory>D:\GeekBrains\Test-Automation\HomeWork_Testing_the_REST_API</buildDirectory>
-                </configuration>
-            </plugin>
 
         </plugins>
     </build>
-
-    <reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-report-plugin</artifactId>
-                <version>${surefire-report.version}</version>
-            </plugin>
-        </plugins>
-    </reporting>
 
     <!-- Репозитории -->
     <repositories>
