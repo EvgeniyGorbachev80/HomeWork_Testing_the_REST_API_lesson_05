@@ -1,0 +1,1 @@
+{"uuid":"c9873b49-4f2e-4a68-b931-06e15378d3ae","name":"GetElevationApiTest","children":["a226a319-31f5-48f5-a9fd-373cf598816e"],"befores":[{"name":"initTest","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1714224754797,"stop":1714224755341}],"afters":[],"start":1714224754764,"stop":1714224757000}

@@ -1,0 +1,1 @@
+{"uuid":"f0efdb1c-ed02-4b2d-b284-bff0f8d8f119","name":"GetTemperatureApiTest","children":["e719a799-0bfa-4ae8-810d-db869b6cf785"],"befores":[{"name":"initTest","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1714224759925,"stop":1714224759925}],"afters":[],"start":1714224759925,"stop":1714224760311}

@@ -1,0 +1,1 @@
+{"uuid":"bc82f13e-4d78-47d7-bd9a-3d634375d55b","name":"GetRegionApiTest","children":["3f13c483-3da8-49cc-8b4b-e12172856051"],"befores":[{"name":"initTest","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1714226997368,"stop":1714226997368}],"afters":[],"start":1714226997367,"stop":1714226998173}

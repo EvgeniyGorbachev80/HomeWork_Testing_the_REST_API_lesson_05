@@ -1,0 +1,1 @@
+{"uuid":"a3ed3a1b-dbb4-49a6-bf91-c4dce05f258f","name":"GetGeoPositionApiTest","children":["30f09e16-00c9-49b1-a29b-554a6c78ba43"],"befores":[{"name":"initTest","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1714224757003,"stop":1714224757003}],"afters":[],"start":1714224757002,"stop":1714224757354}
