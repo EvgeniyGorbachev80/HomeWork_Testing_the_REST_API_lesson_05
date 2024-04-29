@@ -1,8 +1,10 @@
 package org.Gorbachev.HomeWork_03.Test;
 
+import io.qameta.allure.*;
 import org.Gorbachev.HomeWork_03.accuweather.weather.DailyForecast;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.Gorbachev.HomeWork_03.accuweather.weather.Weather;
 
@@ -10,8 +12,16 @@ import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
+@Epic(value = "Тестирование API http://dataservice.accuweather.com")
+@Feature(value = "Домашнее задание")
 public class GetWeatherOneDayTest extends AccuweatherAbstractTest {
     @Test
+    @DisplayName("GetWeatherOneDayTest")
+    @Description("GET WeatherOneDay")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Evgeniy Gorbachev")
+    @Story(value = "Тестирование метода getWeatherOneDay_shouldReturn")
     void getWeatherOneDay_shouldReturn() {
 
         Weather response = given()
@@ -30,6 +40,12 @@ public class GetWeatherOneDayTest extends AccuweatherAbstractTest {
     }
 
     @Test
+    @DisplayName("GetWeatherOneDayTest")
+    @Description("GET DailyForecastsList")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Evgeniy Gorbachev")
+    @Story(value = "Тестирование метода getDailyForecastsList")
     void getDailyForecastsList() {
 
         List<DailyForecast> response = given()
@@ -47,6 +63,12 @@ public class GetWeatherOneDayTest extends AccuweatherAbstractTest {
     }
 
     @Test
+    @DisplayName("GetWeatherOneDayTest")
+    @Description("GET String")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Evgeniy Gorbachev")
+    @Story(value = "Тестирование метода getString")
     void getString() {
         String response = given()
                 .queryParam("apikey", getApiKey())

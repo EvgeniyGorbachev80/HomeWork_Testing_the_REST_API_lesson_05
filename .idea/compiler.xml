@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="HomeWork_Testing_the_REST_API" options="--add-exports java.base/jdk.internal.org.objectweb.asm.util=ALL-UNNAMED" />
+      <module name="HomeWork_Testing_the_REST_API" options="" />
     </option>
   </component>
 </project>

@@ -1,16 +1,27 @@
 package org.Gorbachev.HomeWork_03.Test;
 
+import io.qameta.allure.*;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
+
+@Epic(value = "Тестирование API http://dataservice.accuweather.com")
+@Feature(value = "Домашнее задание")
 public class GetTemperatureApiTest extends AccuweatherAbstractTest {
     private final String API_KEY = "HBAoYTHBeloWennir9bjrNSNYgoGaCqz";
     private final String BASE_URL = "http://dataservice.accuweather.com";
 
     @Test
+    @DisplayName("GetTemperatureApiTest")
+    @Description("GET TemperatureInfo")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Evgeniy Gorbachev")
+    @Story(value = "Тестирование метода getTemperatureInfo_shouldReturnValidData")
     void getTemperatureInfo_shouldReturnValidData() {
 
         // Given
